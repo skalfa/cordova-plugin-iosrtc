@@ -587,8 +587,8 @@ MediaStreamRenderer.prototype.refresh = function () {
 		elementHeight = elementPositionAndSize.height,
 		videoViewWidth,
 		videoViewHeight,
-		// visible,
-		// opacity,
+		visible,
+		opacity,
 		zIndex,
 		mirrored,
 		objectFit,
@@ -628,7 +628,7 @@ MediaStreamRenderer.prototype.refresh = function () {
 	*/
 
 	// opacity
-	// opacity = parseFloat(computedStyle.opacity);
+	opacity = parseFloat(computedStyle.opacity);
 
 	// zIndex
 	zIndex = parseFloat(computedStyle.zIndex) || parseFloat(this.element.style.zIndex) || 0;
@@ -754,8 +754,8 @@ MediaStreamRenderer.prototype.refresh = function () {
 			elementHeight: elementHeight,
 			videoViewWidth: videoViewWidth,
 			videoViewHeight: videoViewHeight,
-			// visible: visible,
-			// opacity: opacity,
+			visible: visible,
+			opacity: opacity,
 			zIndex: zIndex,
 			mirrored: mirrored,
 			objectFit: objectFit,
