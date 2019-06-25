@@ -38,7 +38,7 @@ In order to make this Cordova plugin run into a iOS application some requirement
 Within your Cordova project:
 
 ```bash
-$ cordova plugin add cordova-plugin-iosrtc
+$ cordova plugin add https://github.com/skalfa/cordova-plugin-iosrtc --nofetch
 ```
 
 (or add it into a `<plugin>` entry in the `config.xml` of your app).
